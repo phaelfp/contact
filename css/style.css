@@ -1,0 +1,50 @@
+*, body, ul, li, table, tr, td, div, span, header, main, content {
+    margin:0;
+    padding:0;
+    border:0;
+}
+ul {
+    list-style: none;
+}
+body {
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    margin: 0 auto;
+    width: 950px;
+    padding: 10px 5px;
+}
+header > h1 {
+    margin: 0 auto;
+    padding-bottom: 30px;
+    text-align: center;
+}
+header > figure {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 200px;    
+}
+header > figure > img {
+    border-radius: 100px;
+}
+main {
+    margin: 0 auto;
+    width: 950px;
+}
+main > ul.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    justify-content: center;
+}
+main > content p:first-child{
+    margin-top: 50px;
+}
+
+main > content > p {
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 700;
+}
